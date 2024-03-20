@@ -1,0 +1,12 @@
+@use "./colors" as *;
+
+@mixin heroImg($url) {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	background-image: url($url);
+	background-position: center;
+	background-size: cover;
+	z-index: 0;
+}
